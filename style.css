@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family :Arial, Helvetica, sans-serif;
+    justify-content: start;
+    background: url("https://images.unsplash.com/photo-1618491286109-109f7b653b93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTkwfHxuYXR1cmUlMjBiYWNrZ3JvdW5kfGVufDB8MHwwfHx8Mg%3D%3D&auto=format&fit=crop&w=600&q=60");
+
+    background-size: cover;
+
+    
+
+}
+h2 {
+    font-family: Arial, sans-serif, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.8rem;
+    font-size: 1.2rem;
+    color: blanchedalmond;
+    
+    
+}
+.clock {
+    display: flex;
+
+}
+
+.clock div {
+    margin: 5px;
+    position: relative;
+}
+.clock span {
+    width: 100px;
+    height: 80px;
+    background-color:rgba(32, 79, 140, 0.5);
+    
+    display:flex;
+    color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock .text {
+    font-size: 12px;
+    height: 30px;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 139, 0.7);
+}
+
+.clock #ampm {
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: rgba(0, 0, 255, 0.6);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
